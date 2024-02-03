@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgContainer{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+img{
+    width: 500px;
+    border-radius: 20px;
+}
+#filters,#transforms{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+h4{
+    letter-spacing: 3px;
+}
+input{
+    width: 80%;
+}
+#transforms{
+    background-color: aquamarine;
+}
